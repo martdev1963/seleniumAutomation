@@ -60,3 +60,4 @@ wait = WebDriverWait(driver, 10)  # waiting for 10 seconds...
 wait.until(expected_conditions.presence_of_all_elements_located((By.CSS_SELECTOR, ".promoInfo")))  # must use . dot when using By.CSS_SELECTOR
 # .promoInfo
 print(driver.find_element(By.CLASS_NAME, "promoInfo").text)  # if you use CLASS_NAME, you don't use the . dot
+# this is to test git push origin main
